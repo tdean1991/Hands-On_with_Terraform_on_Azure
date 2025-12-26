@@ -31,5 +31,5 @@ module "securestorage" {
   # insert required variables here
   location             = azurerm_resource_group.rg.location
   resource_group_name  = azurerm_resource_group.rg.name
-  storage_account_name = "tdean1991storageaccountterraformtest"
+  storage_account_name = "tdean1991terraformtest"
 }
