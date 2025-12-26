@@ -21,7 +21,7 @@ provider "azurerm" {
 }
 
 data "azurerm_resource_group" "rg" {
-  name     = "813-41acc82b-hands-on-with-terraform-on-azure"
+  name = "813-41acc82b-hands-on-with-terraform-on-azure"
 }
 
 module "securestorage" {
